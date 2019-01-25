@@ -141,7 +141,9 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #eece1a;
+  /* font-size: 15vw; */
+ }
 
 main {
   padding: 4rem;
@@ -277,7 +279,8 @@ main {
     .menu-branding .portrait {
       background: url("../img/portrait_small.jpg");
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      background-size: cover; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
